@@ -1,0 +1,15 @@
+CIM-Test is a test framework use to test CIM (common information model).
+It is based on PyUnit and provide customised features support CIM concepts such as indication, associate, InvokeMethod.
+
+Detailer introduction can be found at 'uer manual' in 'Doc' dir.
+
+Main features:
+. testcase and testsuite in ini format, no python knowledge required to create testcase. 
+. testcase in python script, intend to create more complex testcase.
+. indication monitor, a listener thread running in client and waitting indicator come from server.
+. invode instinsic and extrinsic methods
+. performance test.  Fork specified thread run same testcase.
+. different log level. 
+. tidy html report. 
+
+liyong.
