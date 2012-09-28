@@ -84,7 +84,6 @@ class CIMListener(object):
             self.q.put('listener got data timeout')
             
 
-        
                 
     
     def render(self, request):
